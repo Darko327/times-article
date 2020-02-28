@@ -1,0 +1,324 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'PT Serif';
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom CSS */
+a {
+    color: initial;
+    text-decoration: none;
+    cursor: pointer;
+}
+h1 {
+    display: inline-block;
+    width: 450px;
+    font-size: 40px;
+    text-align: center;
+}
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.items-baseline {
+    align-items: baseline;
+}
+.items-center {
+    align-items: center;
+}
+.article-share {
+    width: 270px;
+}
+.social-media-icon {
+    padding: 10px 5px 5px 5px;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid white;
+}
+.social-media-icon-background {
+    border-radius: 100%;
+    background-color: #eee;
+}
+.social-media-icon-background:hover {
+    background-color: white;
+    border: 1px solid #888;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.external-source-author {
+    width: 70px;
+    margin-left: 0px;
+    height:1px; 
+    border:none; 
+    color:#000; 
+    background-color:#000;
+}
+.shorter-article {
+    width: 50%;
+}
+.wider-article {
+    width: 945px;
+}
+.large-unity {
+    width: 1200px;
+}
+.centered-text {
+    text-align: center;
+}
+.center-content {
+    margin: 0 auto;
+}
+.new-element-margin {
+    margin-bottom: 40px;
+}
+.new-element-margin-medium {
+    margin-bottom: 20px;
+}
+.new-element-margin-small {
+    margin-bottom: 10px;
+}
+.small-vertical-padding {
+    padding: 20px 0;
+}
+.light-text {
+    color: #666;
+}
+.small-light-text {
+    color: #888;
+}
+.top-border-line {
+    border-top: 1px solid black;
+}
+.top-border-light {
+    border-top: 1px solid #e2e2e2;
+}
+.unerline-text-light {
+    text-decoration: underline;
+    text-decoration-color: #888;
+}
+.font-lato {
+    font-family: 'Lato';
+}
+.bolded-text {
+    font-weight: 600;
+}
+.thinner-text {
+    font-weight: 400;
+}
+/* Header */
+header {
+    padding: 8px 4%;
+    border-bottom: 0.5px solid #e2e2e2;
+}
+.header-elements-width {
+    width: 220px;
+}
+nav {
+    width: 185px;
+    font-size: 15px;
+}
+.centered-text {
+    text-align: center;
+}
+.uppercase-letters {
+    text-transform: uppercase;
+}
+.button-style {
+    padding: 8px 10px;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: #567b95;
+    border: none;
+    border-radius: 3px;
+}
+.logo {
+    height: 26.5px;
+}
+/* Main */
+main {
+    width: 1200px;
+}
+#hero-image {
+    width: 1200px;
+    height: 700px;
+}
+#hero-image-caption {
+    width: 70%;
+    line-height: 20px;
+}
+#comment-icon {
+    font-size: 28px;
+    position: relative;
+}
+#comment-number {
+    position: absolute;
+    top: 16px;
+    right: 7px;
+    font-size: 12px;
+}
+.article-embedded-video {
+    width: 600px;
+    height: 320px;
+}
+/* Article text */
+.article-text p{
+    font-size: 22px;
+    line-height: 30px;
+}
+.article-text h3 {
+    font-size: 25px;
+}
+.wider-article h4 {
+    font-size: 20px;
+}
+/* Inflation Grid */
+.inflation-picture {
+    width: 210px;
+    height: 140px;
+}
+.inflation-theory-wrapper {
+    width: 210px;
+}
+#inflation-theory-grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+}
+.small-figcaption {
+    font-size: 14px;
+    line-height: 18px;
+}
+/* Main footer */
+#main-footer {
+    font-size: 13px;
+}
+#main-footer a:hover {
+    text-decoration: none;
+}
+#footer-button {
+    width: 330px;
+    padding: 15px 0;
+    font-size: 15px;
+}
+#main-footer-share {
+    width: 180px;
+}
+/* More articles */
+#more-articles {
+    display: flex;
+    justify-content: space-between;
+}
+.featured-articles-section {
+    width: 90%;
+}
+.sub-section-h3 {
+    font-size: 19px;
+}
+.featured-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    grid-gap: 30px 15px;
+}
+.featured-articles-picture {
+    width: 100%;
+    height: 180px;
+}
+.article-info-source {
+    text-align: right;
+    font-size: 15px;
+}
+.featured-articles-grid article h5 {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+.featured-articles-grid article h5:hover, #aside-articles li a:hover {
+    color: #888;
+}
+/* More articles - aside */
+#aside-articles li {
+    border-top: 1px solid #e2e2e2;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+/* Footer */
+#footer-homepage-link{
+    color: #567b95;
+}
+#footer-main li{
+    height: 25px;
+}
+.bolded-text {
+    text-transform: uppercase;
+}
+#footer-main li:nth-child(n+2):hover {
+    text-decoration: underline;
+}
+#footer-list-bottom-border {
+    border-bottom: 1px solid #e2e2e2;
+}
+#last-listing {
+    border-left: 1px solid #e2e2e2;
+    padding-left: 15px;
+}
+/* Footer footer */
+#footer-footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+#footer-footer ul li{
+    display: inline-block;
+    font-size: 12px;
+}
+#footer-footer ul li a {
+    color: #888;
+}
+#footer-footer ul li a:hover {
+    text-decoration: underline;
+}
