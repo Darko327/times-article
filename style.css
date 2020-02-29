@@ -70,7 +70,7 @@ h1 {
 }
 .social-media-icon {
     padding: 10px 5px 5px 5px;
-    font-size: 20px;
+    font-size: 1em;
     width: 25px;
     height: 25px;
     text-align: center;
@@ -121,6 +121,9 @@ h1 {
 .small-vertical-padding {
     padding: 20px 0;
 }
+.small-text-size {
+    font-size: 0.7em;
+}
 .light-text {
     color: #666;
 }
@@ -167,7 +170,7 @@ nav {
 .button-style {
     padding: 8px 10px;
     color: white;
-    font-size: 11px;
+    font-size: 0.7em;
     text-transform: uppercase;
     background-color: #567b95;
     border: none;
@@ -187,6 +190,7 @@ main {
 #hero-image-caption {
     width: 70%;
     line-height: 20px;
+    font-size: 0.8em;
 }
 #comment-icon {
     font-size: 28px;
@@ -204,14 +208,14 @@ main {
 }
 /* Article text */
 .article-text p{
-    font-size: 22px;
+    font-size: 1.2em;
     line-height: 30px;
 }
 .article-text h3 {
-    font-size: 25px;
+    font-size: 1.2em;
 }
 .wider-article h4 {
-    font-size: 20px;
+    font-size: 1.2em;
 }
 /* Inflation Grid */
 .inflation-picture {
@@ -228,7 +232,7 @@ main {
     row-gap: 30px;
 }
 .small-figcaption {
-    font-size: 14px;
+    font-size: 0.8em;
     line-height: 18px;
 }
 /* Main footer */
@@ -255,7 +259,7 @@ main {
     width: 90%;
 }
 .sub-section-h3 {
-    font-size: 19px;
+    font-size: 0.9em;
 }
 .featured-articles-grid {
     display: grid;
@@ -269,11 +273,10 @@ main {
 }
 .article-info-source {
     text-align: right;
-    font-size: 15px;
 }
 .featured-articles-grid article h5 {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 22px;
 }
 .featured-articles-grid article h5:hover, #aside-articles li a:hover {
@@ -283,7 +286,7 @@ main {
 #aside-articles li {
     border-top: 1px solid #e2e2e2;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 1.2em;
     line-height: 22px;
 }
 /* Footer */
@@ -292,6 +295,7 @@ main {
 }
 #footer-main li{
     height: 25px;
+    font-size: 0.8em;
 }
 .bolded-text {
     text-transform: uppercase;
@@ -314,7 +318,7 @@ main {
 }
 #footer-footer ul li{
     display: inline-block;
-    font-size: 12px;
+    font-size: 0.7em;
 }
 #footer-footer ul li a {
     color: #888;
